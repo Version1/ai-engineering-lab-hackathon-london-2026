@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "cedbeb97e51e13fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "53ce562c163b874e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01cb286802682118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c541bd92f459a9f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fe2fa210792ac8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9505380c767bde75",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e9a824025f6aed3a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5bf536af575bbe31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0698f3ec1b504f3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3c14f0fdf084493",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee2874b7741cc591",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "aae7e801d7098048",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "5b08a411946a42fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a7e9bf5c98d47dc9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "048f1309850c0eec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "01cb286802682118",
+  "lastOpenFiles": [
+    "wiki/data/lint-report.json",
+    "wiki/data/source-register.json",
+    "wiki/data/tables/uf-staff-directory-extract-q4-2023-notes.csv",
+    "wiki/data/tables/uf-staff-directory-extract-q4-2023-directory.csv",
+    "wiki/data/tables/uf-staff-directory-extract-q4-2023.json",
+    "wiki/data/tables/uf-procurement-thresholds-2024-25-notes.csv",
+    "wiki/data/tables/uf-procurement-thresholds-2024-25-approval-matrix.csv",
+    "wiki/data/tables/uf-procurement-thresholds-2024-25-thresholds.csv",
+    "wiki/data/tables/uf-procurement-thresholds-2024-25.json",
+    "wiki/data/tables/uf-overpayment-recovery-procedures-v2-3-contact.csv",
+    "wiki/data/tables/uf-overpayment-recovery-procedures-v2-3-payment-methods.csv",
+    "wiki/maps/risk-assurance-and-compliance.md",
+    "wiki/maps/people-policies.md",
+    "wiki/maps/corporate-operations.md",
+    "wiki/maps/small-business-and-employment.md",
+    "wiki/maps/housing-and-benefits.md",
+    "wiki/entities/people-services.md",
+    "wiki/entities/finance-directorate.md",
+    "wiki/entities/cabinet-office.md",
+    "wiki/entities/universal-credit-migration.md",
+    "wiki/entities/rtb1-form.md",
+    "wiki/entities/hb1-form.md",
+    "wiki/entities/employment-rights-act-1996.md",
+    "wiki/entities/homelessness-reduction-act-2017.md",
+    "wiki/entities/housing-act-1996.md",
+    "wiki/entities/local-authorities.md",
+    "wiki/entities/hmrc.md",
+    "wiki/entities/dbt.md",
+    "wiki/entities/dwp.md",
+    "wiki/entities/dluhc.md",
+    "wiki/topics/staff-directory.md",
+    "wiki/topics/welsh-language-standards.md",
+    "wiki/topics/overpayment-recovery.md",
+    "wiki/topics/incident-risk-and-assurance.md",
+    "wiki/topics/people-policies.md",
+    "wiki/topics/foi-and-transparency.md"
+  ]
+}
