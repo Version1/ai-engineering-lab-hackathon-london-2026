@@ -1,0 +1,41 @@
+{
+  "codex": {
+    "model": "gpt-5.4",
+    "argv": [
+      "codex",
+      "exec",
+      "-m",
+      "{model}",
+      "--json",
+      "-o",
+      "{assistant_response_path}",
+      "-C",
+      "{repo_root}",
+      "{prompt}"
+    ]
+  },
+  "gemini": {
+    "model": "",
+    "argv": [
+      "gemini",
+      "--approval-mode",
+      "yolo",
+      "--output-format",
+      "json",
+      "--include-directories",
+      "{challenge_root}",
+      "--prompt",
+      "{prompt}"
+    ]
+  },
+  "claude": {
+    "model": "",
+    "argv": [
+      "claude",
+      "-p",
+      "--output-format",
+      "json",
+      "{prompt}"
+    ]
+  }
+}

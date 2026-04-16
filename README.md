@@ -123,6 +123,8 @@ This workshop includes:
 - `challenge-1/FORM-LIC-001-licence-application.pdf` — sample licence application PDF for challenge 1
 - `challenge-02-unlocking-the-dark-data.md` — detailed brief, data, and prompts for challenge 2
 - `challenge-2/` — starter data for challenge 2: `structured_files/` (text-based documents) and `unstructured_files/` (binary-format documents)
+- `challenge-2/wiki/evaluation-benchmark.md` — 100-question source-backed benchmark for evaluating how AI coding agents use the Challenge 2 wiki
+- `challenge-2/tools/run_wiki_eval.py` and `challenge-2/tools/wiki_eval_mcp.py` — Challenge 2 evaluation harness and auditable MCP layer
 - `challenge-03-supporting-casework-decisions.md` — detailed brief, data, and prompts for challenge 3
 - `challenge-04-knowing-your-own-organisation.md` — detailed brief, data, and prompts for challenge 4
 

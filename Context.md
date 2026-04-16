@@ -18,6 +18,7 @@ Challenge 2 asks teams to turn messy government guidance, policy, procedural doc
 - Topic, entity, and map notes provide navigable synthesis.
 - JSON and table exports provide machine-readable interfaces.
 - Lint output checks coverage, metadata, links, and known challenge flags.
+- The evaluation harness tests whether AI coding agents can answer source-backed questions using only the generated wiki, while producing DSAP-shaped audit artifacts for later scoring, FOI-style disclosure, and reconstruction.
 
 ## Data Assumptions
 
@@ -36,10 +37,24 @@ Challenge 2 asks teams to turn messy government guidance, policy, procedural doc
 - `tools/check_documentation_lockstep.py`: local and CI check that required tracking docs exist and move with meaningful changes.
 - `challenge-2/AGENTS.md`: Challenge 2 LLM Wiki operating schema.
 - `challenge-2/tools/build_wiki.py`: repeatable Challenge 2 wiki builder.
+- `challenge-2/evaluation/README.md`: Challenge 2 wiki evaluation harness runbook.
+- `challenge-2/tools/run_wiki_eval.py`: CLI harness for sending benchmark questions to Codex, Gemini CLI, and Claude Code.
+- `challenge-2/tools/wiki_eval_mcp.py`: stdio MCP-compatible audit layer for controlled wiki read/search and answer recording.
+- `challenge-2/tools/summarise_wiki_eval.py`: leaderboard summariser for scored harness runs.
 - `challenge-2/wiki/index.md`: Obsidian knowledge-base entry point.
 - `challenge-2/wiki/architecture.md`: plain-English architecture explanation with Mermaid diagrams.
+- `challenge-2/wiki/evaluation-benchmark.md`: 100-question Challenge 2 wiki benchmark with gold answers, rubrics, and scoring regime.
 - `challenge-2/wiki/lint-report.md`: generated quality report.
 - `challenge-2/wiki/data/source-register.json`: machine-readable source register.
+
+## Evaluation And Audit Assumptions
+
+- The Challenge 2 benchmark Markdown is the scoring source of truth for questions, gold answers, and rubrics.
+- Evaluated agents are instructed to use only `challenge-2/wiki/`, `challenge-2/wiki/data/`, and `challenge-2/AGENTS.md`.
+- Evaluated agents are explicitly instructed not to inspect `challenge-2/wiki/evaluation-benchmark.md` or `challenge-2/evaluation/` while answering, because those paths contain gold answers or scoring material.
+- Harness run artifacts are written under `challenge-2/evaluation/runs/<run-id>/` and ignored by git.
+- The local MCP layer records source access when clients use its wiki search/read tools, but direct filesystem reads by a CLI client cannot be proven from the harness alone.
+- The audit format follows the same DSAP principles used in `/Users/crpage/repos/mcp-geo/server/audit`: event ledger, evidence register, source register, audit card, integrity manifest, redaction manifest, visible transcript, and zipped bundle.
 
 ## Documentation Lockstep
 

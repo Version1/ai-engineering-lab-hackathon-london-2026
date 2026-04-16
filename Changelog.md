@@ -12,6 +12,10 @@ This file follows the spirit of [Keep a Changelog](https://keepachangelog.com/en
 - Added repo-wide operating rules in `AGENTS.md` requiring documentation updates in lockstep with implementation changes.
 - Added a GitHub pull request template with explicit documentation lockstep checks.
 - Added `tools/check_documentation_lockstep.py` and a GitHub Actions workflow to enforce tracking-file updates on pull requests.
+- Added `challenge-2/wiki/evaluation-benchmark.md` with 100 source-backed questions, gold answers, per-question rubrics, and a 500-point summative scoring regime for Challenge 2 wiki evaluation.
+- Added a Challenge 2 wiki evaluation harness under `challenge-2/evaluation/` and `challenge-2/tools/run_wiki_eval.py` for Codex, Gemini CLI, and Claude Code prompt runs.
+- Added `challenge-2/tools/wiki_eval_mcp.py`, a stdio MCP-compatible audit layer for controlled wiki search/read, answer recording, and DSAP-shaped audit pack finalisation.
+- Added `challenge-2/tools/summarise_wiki_eval.py` to turn completed scoring sheets into leaderboard JSON and Markdown.
 
 ### Fixed
 
@@ -21,6 +25,7 @@ This file follows the spirit of [Keep a Changelog](https://keepachangelog.com/en
 ### Documentation
 
 - Linked the new tracking files from `README.md`.
+- Linked the Challenge 2 benchmark into the wiki index and documented the evaluation harness in the Challenge 2 brief and README.
 
 ## 2026-04-16
 

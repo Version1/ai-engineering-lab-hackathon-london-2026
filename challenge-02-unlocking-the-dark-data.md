@@ -158,6 +158,26 @@ Keyword matching is fine for a demo.
 
 By the end of the day, you should be able to show: a set of documents whose content has been extracted and structured, a way to query or search that content, and a clear explanation of who benefits and how. If you can also show what the output schema would enable — the chat interface, the search page, the service that stays up to date when policy changes — that is a strong demo.
 
+## Challenge 2 wiki evaluation harness
+
+The repository also includes an evaluator for the generated Challenge 2 wiki. It is intended for comparing how Codex, Gemini CLI, and Claude Code answer the same source-backed questions when instructed to use only the local wiki.
+
+Key files:
+
+- `challenge-2/wiki/evaluation-benchmark.md` — 100 questions, gold answers, rubrics, and the summative scoring regime.
+- `challenge-2/tools/run_wiki_eval.py` — CLI harness that sends selected questions to Codex, Gemini CLI, and Claude Code.
+- `challenge-2/tools/wiki_eval_mcp.py` — stdio MCP-compatible audit layer for controlled wiki read/search and answer recording.
+- `challenge-2/tools/summarise_wiki_eval.py` — leaderboard summariser for completed scoring sheets.
+- `challenge-2/evaluation/README.md` — operational instructions and output inventory.
+
+Dry-run smoke test:
+
+```bash
+python3 challenge-2/tools/run_wiki_eval.py --dry-run --clients codex --questions Q001 --run-id smoke
+```
+
+Each run writes prompts, captured answers, scoring sheets, an event ledger, source register, audit card, integrity manifest, and a zipped DSAP-style audit bundle under `challenge-2/evaluation/runs/<run-id>/`.
+
 ## Useful references
 
 - GOV.UK Content API — https://content-api.publishing.service.gov.uk
