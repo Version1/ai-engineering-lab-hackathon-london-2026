@@ -1,7 +1,7 @@
 ---
 document_id: DOC-SB-009
 title: "Right to request flexible working: frequently asked questions"
-department: Department for Business and Trade
+department: [Government Department B]
 type: faq
 status: current
 publication_date: 2025-10-01

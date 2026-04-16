@@ -1,7 +1,7 @@
 ---
 document_id: DOC-SB-006
 title: "Self-employment and Housing Benefit: how income is assessed"
-department: Department for Levelling Up, Housing and Communities
+department: [Government Department A]
 type: guidance
 status: current
 publication_date: 2025-05-15

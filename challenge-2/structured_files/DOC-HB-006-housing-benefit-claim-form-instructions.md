@@ -1,7 +1,7 @@
 ---
 document_id: DOC-HB-006
 title: "Housing Benefit Claim Form (HB1) — Completion Instructions"
-department: DLUHC
+department: [DEPT-A]
 type: form-instructions
 status: superseded
 version: "2.3"
@@ -61,7 +61,7 @@ Ensure you have all required supporting documents to hand before completing the 
 | Document Type | When Needed | Accepted Formats |
 |---|---|---|
 | Proof of identity | All claims | Passport, driving licence, or biometric residence permit |
-| Proof of National Insurance number | All claims | NI card, payslip, or HMRC letter |
+| Proof of National Insurance number | All claims | NI card, payslip, or [DEPT-D] letter |
 | Tenancy agreement | All claims | Original or certified copy |
 | Proof of rent payments | All claims | Bank statement, rent book, or landlord letter |
 | Proof of income | All employed or self-employed claimants | Payslips (last 5 weeks or 2 months), P60, or certified accounts |

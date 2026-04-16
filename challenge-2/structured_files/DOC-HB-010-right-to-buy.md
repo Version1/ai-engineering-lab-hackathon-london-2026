@@ -1,7 +1,7 @@
 ---
 document_id: DOC-HB-010
 title: "Right to Buy: Guidance for Tenants and Social Landlords"
-department: DLUHC
+department: [DEPT-A]
 type: guidance
 status: current
 publication_date: 2025-04-01

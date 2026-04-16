@@ -1,7 +1,7 @@
 ---
 document_id: DOC-HB-002
 title: "Discretionary Housing Payments: Guidance for Local Authority Administration"
-department: DLUHC
+department: [DEPT-A]
 type: procedural-manual
 status: current
 publication_date: 2025-03-01
@@ -24,7 +24,7 @@ related_documents:
 
 This manual provides local authority housing officers with the procedural framework for assessing, awarding, and administering Discretionary Housing Payments (DHPs). DHPs are made under Section 2 of the Discretionary Financial Assistance Regulations 2001 and are intended to provide short-term financial assistance to claimants who are entitled to Housing Benefit or the housing costs element of Universal Credit but who require further help to meet their housing costs.
 
-Local authorities have broad discretion in determining DHP awards. There is no statutory right to a DHP, and each application must be considered on its individual merits. This guidance sets out the minimum procedural standards expected by the Department for Levelling Up, Housing and Communities but does not remove the authority's discretion in individual cases.
+Local authorities have broad discretion in determining DHP awards. There is no statutory right to a DHP, and each application must be considered on its individual merits. This guidance sets out the minimum procedural standards expected by the [Government Department A] but does not remove the authority's discretion in individual cases.
 
 ### 1.1 Legal basis
 
@@ -82,7 +82,7 @@ DHPs may be paid to the claimant, the landlord, or a third party acting on behal
 
 ### 3.3 Recording and monitoring
 
-All DHP decisions must be recorded on the authority's housing benefit system with a clear audit trail showing the evidence considered, the reasoning for the decision, and the amount and duration of the award. Authorities must submit quarterly monitoring returns to DLUHC summarising DHP expenditure, the number of awards made, and the reasons for awards.
+All DHP decisions must be recorded on the authority's housing benefit system with a clear audit trail showing the evidence considered, the reasoning for the decision, and the amount and duration of the award. Authorities must submit quarterly monitoring returns to [DEPT-A] summarising DHP expenditure, the number of awards made, and the reasons for awards.
 
 ### 3.4 Notification and review
 

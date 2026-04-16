@@ -154,28 +154,28 @@ Last Updated: 2025-11-20
 
 5. COMPLIANCE AND PENALTIES
 
-5.1 The Pensions Regulator's powers
+5.1 [Regulatory Body C]'s powers
 
-    The Pensions Regulator (TPR) is responsible for ensuring employers
-    comply with their auto-enrolment duties. TPR has a range of
+    [Regulatory Body C] ([REG-C]) is responsible for ensuring employers
+    comply with their auto-enrolment duties. [REG-C] has a range of
     enforcement tools available, escalating in severity.
 
 5.2 Penalty structure
 
     5.2.1 Compliance notice
 
-        TPR may issue a compliance notice requiring you to take specific
+        [REG-C] may issue a compliance notice requiring you to take specific
         actions (such as enrolling workers or paying contributions) by
         a stated deadline.
 
     5.2.2 Fixed penalty notice
 
-        If you do not comply with a compliance notice, TPR may issue a
+        If you do not comply with a compliance notice, [REG-C] may issue a
         fixed penalty notice of 400 pounds.
 
     5.2.3 Escalating penalty notice
 
-        If non-compliance continues after a fixed penalty notice, TPR
+        If non-compliance continues after a fixed penalty notice, [REG-C]
         may issue an escalating daily penalty. The daily rate depends
         on the number of workers in your PAYE scheme:
 
@@ -190,7 +190,7 @@ Last Updated: 2025-11-20
     5.2.4 Criminal prosecution
 
         In the most serious cases, particularly where an employer
-        wilfully fails to comply or induces workers to opt out, TPR
+        wilfully fails to comply or induces workers to opt out, [REG-C]
         may pursue criminal prosecution.
 
 ------------------------------------------------------------------------
@@ -201,7 +201,7 @@ Last Updated: 2025-11-20
     years. This includes the names and addresses of enrolled workers,
     the dates of enrolment and any opt-outs, contribution amounts paid,
     and the pension scheme reference numbers. Failure to keep adequate
-    records may itself result in a compliance notice from TPR.
+    records may itself result in a compliance notice from [REG-C].
 
 ------------------------------------------------------------------------
 
@@ -212,4 +212,4 @@ CROSS-REFERENCES
 
 ------------------------------------------------------------------------
 
-Published by: The Pensions Regulator
+Published by: [Regulatory Body C]

@@ -1,7 +1,7 @@
 ---
 document_id: DOC-SB-005
 title: "Employment Rights Act 1996: Plain-English Summary"
-department: "Department for Business and Trade"
+department: "[Government Department B]"
 type: legislation-summary
 status: current
 publication_date: "2025-08-01"
