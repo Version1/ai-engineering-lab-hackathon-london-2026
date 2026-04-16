@@ -16,6 +16,7 @@ This file follows the spirit of [Keep a Changelog](https://keepachangelog.com/en
 ### Fixed
 
 - Updated the Challenge 2 architecture Mermaid labels from `1.`, `2.`, etc. to `Step 1:`, `Step 2:`, etc. so Obsidian does not render them as unsupported Markdown lists.
+- Fixed the documentation lockstep check so it fails if required tracking files are deleted, even when their deleted paths appear in the diff.
 
 ### Documentation
 

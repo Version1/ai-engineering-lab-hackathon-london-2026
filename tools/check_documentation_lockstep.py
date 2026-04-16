@@ -36,22 +36,34 @@ def is_ignored(path: str) -> bool:
     return name in IGNORED_NAMES or any(path.startswith(prefix) for prefix in IGNORED_PREFIXES)
 
 
+def missing_tracking_docs() -> list[str]:
+    return sorted(path for path in TRACKING_DOCS if not Path(path).is_file())
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Require tracking docs to change with meaningful repo changes.")
     parser.add_argument("--base", help="Git revision range to compare, for example origin/main...HEAD.")
     args = parser.parse_args()
 
     paths = {path for path in changed_paths(args.base) if not is_ignored(path)}
+    missing_docs = missing_tracking_docs()
+    if missing_docs:
+        print("Documentation lockstep check failed.")
+        print("Required tracking files are missing from the checkout:")
+        for path in missing_docs:
+            print(f"- {path}")
+        return 1
+
     meaningful = {path for path in paths if path not in TRACKING_DOCS}
     if not meaningful:
         print("Documentation lockstep check skipped: no meaningful non-tracking changes.")
         return 0
 
-    missing = sorted(TRACKING_DOCS - paths)
-    if missing:
+    missing_updates = sorted(TRACKING_DOCS - paths)
+    if missing_updates:
         print("Documentation lockstep check failed.")
         print("Meaningful changes were detected, so these tracking files must be updated together:")
-        for path in missing:
+        for path in missing_updates:
             print(f"- {path}")
         print("\nChanged non-tracking paths:")
         for path in sorted(meaningful):

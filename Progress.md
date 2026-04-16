@@ -18,6 +18,7 @@ The current local working branch also contains a small fix for Obsidian Mermaid 
 - Resolved all fork-local PR review threads.
 - Fixed the architecture Mermaid diagram labels that Obsidian rendered as unsupported Markdown lists.
 - Added repo-wide tracking files and a documentation lockstep check for local and pull-request validation.
+- Fixed review feedback on the documentation lockstep check so deleted tracking files cannot pass as updated files.
 
 ## Validation
 
@@ -29,6 +30,7 @@ The current local working branch also contains a small fix for Obsidian Mermaid 
   - `python3 tools/check_documentation_lockstep.py`
   - `python3 -m py_compile tools/check_documentation_lockstep.py`
   - `git diff --check`
+  - temporary missing-file check confirmed the script fails when `Changelog.md` is absent.
 
 ## Open Items
 

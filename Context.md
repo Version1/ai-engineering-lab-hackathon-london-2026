@@ -33,7 +33,7 @@ Challenge 2 asks teams to turn messy government guidance, policy, procedural doc
 - `Context.md`: project context, architecture assumptions, and operating constraints.
 - `Progress.md`: current status, validation, blockers, and next steps.
 - `AGENTS.md`: repo-wide operating rules and documentation lockstep policy.
-- `tools/check_documentation_lockstep.py`: local and CI check that tracking docs move with meaningful changes.
+- `tools/check_documentation_lockstep.py`: local and CI check that required tracking docs exist and move with meaningful changes.
 - `challenge-2/AGENTS.md`: Challenge 2 LLM Wiki operating schema.
 - `challenge-2/tools/build_wiki.py`: repeatable Challenge 2 wiki builder.
 - `challenge-2/wiki/index.md`: Obsidian knowledge-base entry point.
@@ -50,4 +50,4 @@ Documentation is part of the product. Any meaningful change should update the re
 - `Progress.md` for changed status, blockers, validation, or next steps.
 - `README.md` or challenge briefs for user-facing changes.
 
-This rule is enforced through `AGENTS.md`, `.github/pull_request_template.md`, `tools/check_documentation_lockstep.py`, and the Documentation Lockstep GitHub Actions workflow.
+This rule is enforced through `AGENTS.md`, `.github/pull_request_template.md`, `tools/check_documentation_lockstep.py`, and the Documentation Lockstep GitHub Actions workflow. The check fails if required tracking files are missing or if meaningful changes omit a tracking-file update.
